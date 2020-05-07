@@ -5,7 +5,7 @@ It was created using a [Udemy tutorial](https://www.udemy.com/share/101uXOAEMZdF
 
 ## Setup Guide
 
-Ensure that you have setup React Native and the corresponsing CLIs needed. 
+Ensure that you have setup React Native and the corresponding CLIs needed. 
 [React Native Setup](https://reactnative.dev/docs/getting-started)
 
 1. Open Git Bash/ Command Prompt/ Terminal. Clone repository.
