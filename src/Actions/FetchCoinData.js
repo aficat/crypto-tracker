@@ -6,7 +6,7 @@ export default function FetchCoinData() {
     return dispatch => {
         dispatch({ type: FETCHING_COIN_DATA })
 
-        return axios.get(`${apiBaseURL}`, { headers: API_KEY }, { qs: QS })
+        return axios.get(`${apiBaseURL}`, { headers: API_KEY, params: QS })
             .then(res => {
                 return dispatch({ type: FETCHING_COIN_DATA_SUCCESS, payload: res })
             })
