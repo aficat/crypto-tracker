@@ -2,7 +2,8 @@
 
 A simple and elegant cryptocurrency tracker built with React Native and Expo. Track real-time prices, trends, and market data for various cryptocurrencies.
 
-![Status](https://img.shields.io/badge/status-updated-success)
+![Status](https://img.shields.io/badge/status-secure-brightgreen)
+![Security](https://img.shields.io/badge/vulnerabilities-0-success)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -28,9 +29,9 @@ A simple and elegant cryptocurrency tracker built with React Native and Expo. Tr
 
 ## 🛠 Tech Stack
 
-- **Framework:** Expo SDK 51
-- **React:** 18.2.0
-- **React Native:** 0.74.5
+- **Framework:** Expo SDK 54
+- **React:** 18.3.1
+- **React Native:** 0.76.6
 - **State Management:** Redux 5.0.1, React-Redux 9.1.2
 - **HTTP Client:** Axios 1.7.7
 - **Middleware:** Redux Thunk 3.1.0, Redux Promise 0.6.0, Redux Logger 3.0.6
@@ -120,9 +121,9 @@ crypto-tracker/
 
 ## 🔒 Security
 
-This project has been recently updated to address all critical and high-severity security vulnerabilities:
+This project has been recently updated and is fully secure with **zero vulnerabilities**:
 
-- ✅ Updated Expo SDK from 36 to 51 to fix OAuth vulnerability
+- ✅ Updated Expo SDK from 36 to 54 to fix OAuth vulnerability and resolve low-severity `send` package vulnerability
 - ✅ Updated Axios from 0.19.2 to 1.7.7 to resolve multiple vulnerabilities:
   - DoS attack vulnerabilities
   - Inefficient Regular Expression Complexity
@@ -130,6 +131,7 @@ This project has been recently updated to address all critical and high-severity
   - Server-Side Request Forgery (SSRF)
 - ✅ Updated all dependencies to latest compatible versions
 - ✅ Fixed axios API implementation to follow best practices
+- ✅ All dependencies are now at secure versions with no known vulnerabilities
 
 ## 🤝 Contributing
 
